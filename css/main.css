@@ -1,0 +1,49 @@
+    /*Estilos asociados al encabezado */
+    
+    body {
+        margin: 0;
+    }
+    
+    #header {
+        /* propiedad que permite alterar la altura*/
+        height: 100vh;
+        background-image: url(../img/header_background.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #header h1 {
+        color: white;
+        margin: 0;
+        padding: 0 20%;
+        font-size: 50px;
+    }
+    
+    #main {
+        padding: 0 20%;
+    }
+    
+    #main p {
+        font-size: 20px;
+    }
+    
+    #main h1 {
+        font-size: 35px;
+    }
+    /*Diseño Responsive*/
+    
+    @media only screen and (max-width: 800px) {
+        #header {
+            padding: 0;
+            font-size: 40px;
+        }
+        #main {
+            padding: 0 1%;
+        }
+        #main p {
+            font-size: 15px;
+        }
+        #main h1 {
+            font-size: 35px;
+        }
+    }
